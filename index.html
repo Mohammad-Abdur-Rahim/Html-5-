@@ -12,30 +12,36 @@
 <body>
     <h1 style="text-align: center;">Welcome to Html 5 Practice</h1>
     <hr width="50%">
-    <!-- Div Concept  -->
-    <div>
-        <div>Welcome</div>
-        <div>
-            <div>H</div>
-            <div>A</div>
-            <div>C</div>
-            <div>G</div>
-        </div>
-        <div>
-            <div>
-                <div>H</div>
-                <div>A</div>
-                <div>C</div>
-                <div>G</div>
-            </div>
-            <div>Img</div>
-        </div>
+
+    <!-- Form Concept--------------------------------------------------  -->
+
+
+<form method="" action="#">
+    <!-- Method = Receive data backend &
+    Action = Request submit other page or site...  & ------ pattern limit -------->
+<h2>Enquiry Form</h2>
+<label for="Name" >Name</label></br>
+<input type="text" id="Name" pattern="[a-z A-Z]{3,40}" placeholder="Enter Full Name"></br>
+<label for="Email">Email</label></br>
+<input type="email" id="Email" placeholder="Your Email"></br>
+<label for="">Phone</label></br>
+<input type="tel" pattern="[0-9]{10}" title="Enter valid phone number" placeholder=""></br>  
+<!-- Phone new limit html 5 -->
+
+<label for="">Gender</label>
+
+<label for="">Message</label></br>
+<textarea rows="4" cols="40">...</textarea></br></br>
+<button type="submit">Save</button>
+<button type="reset">Rest</button>
 
 
 
-    </div>
+</form>
 
-    </table>
+
+
+
 </body>
 
 </html>
