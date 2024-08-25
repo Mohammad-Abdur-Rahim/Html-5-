@@ -13,55 +13,25 @@
     <h1 style="text-align: center;">Welcome to Html 5 Practice</h1>
     <hr width="50%">
 
-    <!-- Form Concept--------------------------------------------------  -->
-
-
-<form method="" action="#">
-
-<label>Gender</label><br>
-<input type="radio" value="Male"  name="gender">Male
-<input type="radio" value="Female" name="gender">Female
-<input type="radio" value="Others" name="gender">Others
-<!-- checkbox ------><br><br>
- <label>Courses</label><br>
- <input type="checkbox" value="html">html
- <input type="checkbox" value="css">css
- <input type="checkbox" value="Tailwind">Tailwind
- <input type="checkbox" value="javaScript">javaScript
- <input type="checkbox" value="React">Reactjs & Nodejs<br><br>
-<!-- Upload file form  -->
- <label>Upload file Photo</label><br>
- <input type="file"><br>
- <label>Password</label><br>
- <input type="password
- ">
- <!-- dropdown here select    -->
-  <label>Country</label><br>
-  <select>
-    <option value="select">------select--------</option>
-    <option value="india">Europe</option>
-    <option value="india">Bangladesh</option>
-    <option value="india">Germany</option>
-    <option value="india">Franch</option>
-  </select>
-
-
-<!-- option group -->
-<br><br> 
-  <label>Course</label><br>
-  <select>
-<optgroup label="Frontend">
-    <option>Html</option>
-    <option>Css</option>
-    <option>javaScript</option>
-</optgroup>
-<optgroup label="Backend">
-    <option>node js</option>
-    <option>my sql</option>
-    <option>mongo dv</option>
-</optgroup>
-  </select>
-</form>
+<fieldset>
+    <legend>Html 5 form Input</legend>
+    <form>
+        <input type="date">
+        <input type="time">
+        <input type="week">
+        <input type="month">
+        <input type="color">
+        <input type="url">
+        <input type="range">
+        <!-- important to suggestions ------------------>
+         <input type="text" list="course">
+         <datalist id="course">
+          <option value="Javascript"></option>
+          <option value="Laravel"></option>
+          <option value="Node js"></option>
+         </datalist>
+    </form>
+</fieldset>
 
 
 
